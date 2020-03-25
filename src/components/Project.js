@@ -27,17 +27,17 @@ class Project extends Component {
                         </div>
                         <div className="col-lg-6 text-left">
                             <label>Title*</label>
-                            <input type="text" name="proj1_title" className="form-control" onChange={(e)=>this.props.handleinput(e.target)} />
+                            <input type="text" name="proj1_title" className="form-control" onChange={(e)=>this.props.handleinput(e.target)} required/>
                         </div>
                         <div className="col-lg-6 text-left">
                             <label>Link</label>
-                            <input type="text" name="proj1_link" className="form-control" onChange={(e)=>this.props.handleinput(e.target)} />
+                            <input type="text" name="proj1_link" className="form-control" onChange={(e)=>this.props.handleinput(e.target)} required />
                         </div>
                     </div>
                     <div className="row col-lg-10 mx-auto">
                         <div className="col-lg-12 text-left">
                             <label>Description*</label>
-                            <input type="text" name="proj1_desc" className="form-control" onChange={(e)=>this.props.handleinput(e.target)} />
+                            <input type="text" name="proj1_desc" className="form-control" onChange={(e)=>this.props.handleinput(e.target)} required/>
                         </div>
                     </div>
                     <br/>
@@ -51,17 +51,17 @@ class Project extends Component {
                         </div>
                         <div className="col-lg-6 text-left">
                             <label>Title*</label>
-                            <input type="text" name="proj2_title" className="form-control" onChange={(e)=>this.props.handleinput(e.target)} />
+                            <input type="text" name="proj2_title" className="form-control" onChange={(e)=>this.props.handleinput(e.target)} required/>
                         </div>
                         <div className="col-lg-6 text-left">
                             <label>Link</label>
-                            <input type="text" name="proj2_link" className="form-control" onChange={(e)=>this.props.handleinput(e.target)} />
+                            <input type="text" name="proj2_link" className="form-control" onChange={(e)=>this.props.handleinput(e.target)} required />
                         </div>
                     </div>
                     <div className="row col-lg-10 mx-auto">
                     <div className="col-lg-12 text-left">
                             <label>Description*</label>
-                            <input type="text" name="proj2_desc" className="form-control" onChange={(e)=>this.props.handleinput(e.target)}  />
+                            <input type="text" name="proj2_desc" className="form-control" onChange={(e)=>this.props.handleinput(e.target)} required />
                         </div>
                     </div>
                     <br/>

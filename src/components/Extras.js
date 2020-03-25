@@ -29,11 +29,11 @@ class Extras extends Component {
                 <div className="row col-lg-10 mx-auto">
 
                     <div className="col-lg-6 md-form">
-                        <input type="text" name="extra_1" className="form-control" onChange={(e)=>this.props.handleinput(e.target)} />
+                        <input type="text" name="extra_1" className="form-control" onChange={(e)=>this.props.handleinput(e.target)} required/>
                         <label htmlFor="extra_1">Languages</label>
                     </div>
                     <div className="col-lg-6 md-form">
-                        <input type="text" name="extra_2" className="form-control" onChange={(e)=>this.props.handleinput(e.target)}  />
+                        <input type="text" name="extra_2" className="form-control" onChange={(e)=>this.props.handleinput(e.target)}  required/>
                         <label htmlFor="extra_2">Hobbies</label>
                     </div>
                 </div>
@@ -44,11 +44,11 @@ class Extras extends Component {
                     <div className="row col-lg-10 mx-auto">
 
                         <div className="col-lg-6 md-form">
-                            <input type="text" name="extra_3" id="extra_3" className="form-control" onChange={(e)=>this.props.handleinput(e.target)}  />
+                            <input type="text" name="extra_3" id="extra_3" className="form-control" onChange={(e)=>this.props.handleinput(e.target)} required />
                             <label htmlFor="extra_3">Activity/Achievement</label>
                         </div>
                         <div className="col-lg-6 md-form">
-                            <input type="text" name="extra_4" id="extra_4" className="form-control" onChange={(e)=>this.props.handleinput(e.target)} />
+                            <input type="text" name="extra_4" id="extra_4" className="form-control" onChange={(e)=>this.props.handleinput(e.target)} required/>
                             <label htmlFor="extra_4">Activity/Achievement</label>
                         </div>
                     </div>
@@ -58,7 +58,7 @@ class Extras extends Component {
 
                     <div className="row col-lg-10 mx-auto">
                         <div className="col-lg-12 md-form">
-                            <input type="text" name="extra_5" id="extra_5" className="form-control" onChange={(e)=>this.props.handleinput(e.target)} />
+                            <input type="text" name="extra_5" id="extra_5" className="form-control" onChange={(e)=>this.props.handleinput(e.target)} required/>
                             <label htmlFor="extra_5">Activity/Achievement</label>
                         </div>
                     </div>

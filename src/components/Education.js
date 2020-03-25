@@ -27,21 +27,21 @@ class Education extends Component {
                         </div>
                         <div className="col-lg-4 text-left">
                             <label>College/University*</label>
-                            <input type="text" name="edu1_school" className="form-control" onChange={(e)=>this.props.handleinput(e.target)}  />
+                            <input type="text" name="edu1_school" className="form-control" onChange={(e)=>this.props.handleinput(e.target)}  required/>
                         </div>
                         <div className="col-lg-4 text-left">
                             <label>Year*</label>
-                            <input type="text" name="edu1_year" className="form-control" onChange={(e)=>this.props.handleinput(e.target)} />
+                            <input type="text" name="edu1_year" className="form-control" onChange={(e)=>this.props.handleinput(e.target)} required/>
                         </div>
                         <div className="col-lg-4 text-left">
                             <label>Qualification*</label>
-                            <input type="text" name="edu1_qualification" className="form-control" onChange={(e)=>this.props.handleinput(e.target)} />
+                            <input type="text" name="edu1_qualification" className="form-control" onChange={(e)=>this.props.handleinput(e.target)} required/>
                         </div>
                     </div>
                     <div className="row col-lg-10 mx-auto">
                         <div className="col-lg-12 text-left">
                             <label>Description*</label>
-                            <input type="text" name="edu1_desc" className="form-control" onChange={(e)=>this.props.handleinput(e.target)} />
+                            <input type="text" name="edu1_desc" className="form-control" onChange={(e)=>this.props.handleinput(e.target)} required/>
                         </div>
                     </div>
 

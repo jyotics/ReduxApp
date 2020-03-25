@@ -26,33 +26,33 @@ class PersonalDetails extends Component {
                     <div className="row col-lg-10 mx-auto">
                         <div className="col-lg-4 text-left">
                             <label>Name*</label>
-                            <input type="text" name="name" className="form-control" onChange={(e)=>this.props.handleinput(e.target)} />
+                            <input type="text" name="name" className="form-control" onChange={(e)=>this.props.handleinput(e.target)} required/>
                         </div>
                         <div className="col-lg-4 text-left">
                             <label>Email*</label>
-                            <input type="email" name="email" className="form-control" onChange={(e)=>this.props.handleinput(e.target)} />
+                            <input type="email" name="email" className="form-control" onChange={(e)=>this.props.handleinput(e.target)} required />
                         </div>
                         <div className="col-lg-4 text-left">
                             <label>Mobile*</label>
-                            <input type="text" name="phone" className="form-control" onChange={(e)=>this.props.handleinput(e.target)} />
+                            <input type="text" name="phone" className="form-control" onChange={(e)=>this.props.handleinput(e.target)} required />
                         </div>
                     </div>
                     <br />
                     <div className="row col-lg-10 mx-auto">
                         <div className="col-lg-6 text-left">
                             <label>Linkedin</label>
-                            <input type="text" name="linkedin" className="form-control" onChange={(e)=>this.props.handleinput(e.target)} />
+                            <input type="text" name="linkedin" className="form-control" onChange={(e)=>this.props.handleinput(e.target)} required />
                         </div>
                         <div className="col-lg-6 text-left">
                             <label>Github</label>
-                            <input type="text" name="github" className="form-control" onChange={(e)=>this.props.handleinput(e.target)} />
+                            <input type="text" name="github" className="form-control" onChange={(e)=>this.props.handleinput(e.target)} required />
                         </div>
                     </div>
                     <br />
                     <div className="row col-lg-10 mx-auto">
                         <div className="col-lg-12 text-left">
                             <label>Skills* (Separate each skill with a space and a comma)</label>
-                            <input type="text" name="skills" className="form-control" onChange={(e)=>this.props.handleinput(e.target)} />
+                            <input type="text" name="skills" className="form-control" onChange={(e)=>this.props.handleinput(e.target)} required />
                         </div>
                     </div>
                     <br />
